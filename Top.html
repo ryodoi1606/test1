@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Top Page</title>
+  <link rel="stylesheet" href="Top.css">
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="Top.js"></script>
+</head>
+<body>
+  <header>
+    <h1>ボウリングスコア分析サイト</h1>
+    <div class="btns">
+      <a href="login.html"><input id="login_btn" type="button" value="ログイン"></a>
+      <a href="signup.html"><input id="signup_btn" type="button" value="新規登録"></a>
+    </div>
+  </header>
+  <div class="main">
+    <h2>スコアを入力し、ボウリングの傾向を分析します</h2>
+    <div class="btns">
+      <input id="score_btn" type="button" value="スコア分析">
+      <span style="color: red; font-weight: bold;"></span>
+    </div>
+
+    <p>スコア分析画面へ移動</p>
+  </div>
+  <div class="explain">
+    <h2>-使い方-</h2>
+    <div class="explain1">
+      <p>※スコア登録画面</p>
+      <img src="images/score_input.png" alt="スコア入力画面">
+      <p>①1ゲームのスコアを入力フォームに入力します</p>
+      <p>　スペアは「/」、ストライクは「x」を入力。2投目のミスは「-」または「0」を入力</p>
+      <p>　スコアは自動で計算されます</p>
+      <p>②残ったピンをここに入力。2投目で取れた場合は再度クリックする</p>
+      <p>③入力が完了すれば、「入力完了」のボタンをクリック</p>
+    </div>
+
+    <img src="" alt="スコア分析画面">
+    <p>登録したスコアの分析結果がここに出ます</p>
+    <p>①スコア平均:総合アベレージ　②ストライク率:1ゲームでのストライク率　③連続ストライク率:ストライクの後にストライクを取る確率</p>
+    <p>④スペア率:1ゲームでのスペア率　⑤スペア成功率:スペアを取る確率　⑥スプリット率:1ゲームでスプリットが出る確率</p>
+    <p>⑦得意パターン:スペア成功率の高い配置　⑧苦手パターン:スペア成功率の低い配置</p>
+  </div>
+</body>
+</html>

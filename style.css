@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+html {
+	font-size: 100%;
+}
+#login {
+	margin: 0 auto;
+	text-align: center;
+	border: 2px black solid;
+	max-width: 500px;
+	border-radius: 10px;
+	padding-bottom: 16px;
+}
+#login p {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.top img {
+	width: 2rem;
+	height: 2rem;
+}
+#signup {
+	margin: 0 auto;
+	text-align: center;
+	border: 2px black solid;
+	max-width: 500px;
+	border-radius: 10px;
+	padding-bottom: 16px;
+}
+#signup p {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.name {
+	margin-top: 2rem;
+	border-top: 2px #ddd solid;
+}
+
+.bowling {
+	margin-top: 2rem;
+	border-top: 2px #ddd solid;
+}
+.btn {
+	margin: 16px 0;
+}
+.btn input {
+	font-size: 1.25rem;
+	border-radius: 5px;
+	padding: 0.5rem 2rem;
+	background-color: #0bd;
+	color: #fff;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.btn input:hover {
+	background-color: #0090aa;
+}
+.others {
+	text-align: left;
+	margin-left: 5.4rem;
+}
+.other1 {
+	display: none;
+}
+
+.alert {
+	color: red;
+}

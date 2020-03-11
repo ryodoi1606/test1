@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>スコア分析</title>
+  <link rel="stylesheet" href="Analysis.css">
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="Analysis.js"></script>
+</head>
+<body>
+  <header>
+    <h1>スコア分析</h1>
+  </header>
+  <div class="inputScore">
+    <h2>スコア入力フォーム</h2>
+    <p>ストライクは「x」、スペアは「/」を入力してください。ガター、ミスは「0」を入力してください。</p>
+    <div class="frameNo">
+      <div class="fr">1</div>
+      <div class="fr">2</div>
+      <div class="fr">3</div>
+      <div class="fr">4</div>
+      <div class="fr">5</div>
+      <div class="fr">6</div>
+      <div class="fr">7</div>
+      <div class="fr">8</div>
+      <div class="fr">9</div>
+      <div class="fr10">10</div>
+    </div>
+    <div class="inputS">
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score11" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score12" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr1score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score21" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score22" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr2score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score31" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score32" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr3score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score41" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score42" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr4score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score51" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score52" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr5score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score61" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score62" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr6score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score71" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score72" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr7score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score81" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score82" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr8score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame1">
+        <div class="singleScore">
+          <div class="form1"><input type="text" id="score91" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score92" maxlength="1"></div>
+        </div>
+        <div class="frameScore" id="fr9score"></div>
+        <div class="pinPosition">
+          <img src="images/fig.png" class="pin7 type1">
+	        <img src="images/fig.png" class="pin8 type1">
+	        <img src="images/fig.png" class="pin9 type1">
+	        <img src="images/fig.png" class="pin10 type1">
+	        <img src="images/fig.png" class="pin4 type1">
+	        <img src="images/fig.png" class="pin5 type1">
+	        <img src="images/fig.png" class="pin6 type1">
+	        <img src="images/fig.png" class="pin2 type1">
+	        <img src="images/fig.png" class="pin3 type1">
+	        <img src="images/fig.png" class="pin1 type1">
+        </div>
+      </div>
+      <div class="frame10">
+        <div class="singleScore10">
+          <div class="form1"><input type="text" id="score101" maxlength="1"></div>
+          <div class="form2"><input type="text" id="score102" maxlength="1"></div>
+          <div class="form3"><input type="text" id="score103" maxlength="1"></div>
+        </div>
+        <div class="frameScore10" id="fr10score"></div>
+        <div class="pinPosition10"></div>
+      </div>
+    </div>
+    <br>
+    <input type="button" value="スコア計算" id="calc">
+    <br>
+    <input type="button" value="入力完了" id="finshInput">
+  </div>
+  <div class="">
+    <table>
+      <tr>
+        <td>スコア平均</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>ストライク率</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>連続ストライク率</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>スペア率</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>スペア成功率</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>スプリット率</td>
+        <td></td>
+      </tr>
+    </table>
+
+  </div>
+  <div class="">
+    <h3>得意パターン</h3>
+  </div>
+  <div class="">
+    <h3>苦手パターン</h3>
+  </div>
+</body>
+</html>

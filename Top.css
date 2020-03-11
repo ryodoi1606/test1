@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+
+body{
+max-width: 1100px;
+margin: 0 auto;
+padding:0 4%;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px #00a9ff solid;
+}
+
+.btns input {
+	margin: 16px 0;
+  font-size: 1.25rem;
+	border-radius: 5px;
+	padding: 0.5rem 2rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#login_btn {
+	background-color: #0bd;
+	color: #fff;
+}
+#login_btn:hover {
+	background-color: #0090aa;
+}
+
+#signup_btn{
+  background-color: #92cb97;
+  color: #fff;
+}
+
+#signup_btn:hover{
+  background-color: #728742;
+}
+
+#score_btn{
+  background-color: #00a0dc;
+  color: #fff;
+}
+
+#score_btn:hover{
+  background-color: #193278;
+}
+
+.explain1 img {
+  height: 70%;
+  width: 70%;
+}

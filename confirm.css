@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+
+h1{
+  width: 42rem;
+  border-bottom: 2px #00a9ff solid;
+}
+
+.inputItems{
+  display: grid;
+  grid-template-columns: 12rem 30rem;
+}
+
+.item{
+  border: 1px black solid;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.8rem;
+}
+.input{
+  border: 1px black solid;
+  padding: 1rem;
+}
+
+.btn {
+	margin: 16px 0;
+}
+.btn input {
+	font-size: 1.25rem;
+	border-radius: 5px;
+	padding: 0.5rem 2rem;
+  margin: 10px 0;
+	cursor: pointer;
+}
+
+#btn1{
+  background-color: #0bd;
+	color: #fff;
+}
+
+#btn1:hover {
+	background-color: #0090aa;
+}
+
+#btn2{
+  background-color: #de4d4d;
+	color: #fff;
+}
+
+#btn2:hover {
+	background-color: #ab0f50;
+}
